@@ -1,0 +1,17 @@
+
+#############################
+docker container run hello-world
+docker image pull alpine
+docker image ls
+docker container run alpine ls -l
+docker container run alpine echo hello from alpine
+docker container run alpine binsh
+docker container run -it alpine binsh
+docker container ls
+docker container ls -a
+docker container run -it alpine binash
+docker container run alpine ls
+docker container ls -a
+docker container start container ID
+docker container exec container ID ls
+###############################
